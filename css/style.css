@@ -74,6 +74,18 @@ html { height: 100%; }
 .newsBlock {
 	background: #f39c12;
 	color: white;
+}
+
+#newsArcticle {
+	margin-bottom:50px;
+
+}
+
+#textArticle {
+	font-size: 1.8em;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: 'Chelsea Market', cursive;
 	text-align: center;
 }
 
@@ -83,13 +95,15 @@ html { height: 100%; }
 	margin-bottom: 30px;
 	margin-left: 20%;
 	margin-right: 20%;
+	text-align: center;
 	
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 #megaphone {
-	width: 30%;
+	width: 80%;
+	margin-bottom: 30px;
 }
 
 /* film list */
@@ -117,6 +131,10 @@ html { height: 100%; }
 	color: white;
 	padding-bottom: 50px;
 	padding-top: 50px;
+}
+
+#IMDbLogo {
+	margin-bottom: 10px;
 }
 
 /*
@@ -183,24 +201,33 @@ legend {
 	margin-bottom: 40px;
 }
 
-/* footer */
+/*footer*/
 .footer {
-	background-color: black;
 	height: 200px;
 	width: 100%;
-	padding-top : 40px;
-	color: white;
+	padding-top: 50px;
+	color: lightgrey;
 }
 
 .footerLink {
 	color: lightgrey;
+font-weight: bold;
 }
 
 .footerLink:hover {
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 }
 
+.footerBg{
+	background-color: black;
+}
+
+.footerLogo {
+	background-color: white;
+	width: 100%;
+	margin-top: 20px;
+}
 
 /*social media*/
 .fa {
@@ -246,6 +273,125 @@ legend {
 	font-weight: bold;
 }
 
+/*font*/
 body {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif, "Times New Roman", Times, serif;
 }
+
+
+/*responsive changes*/
+
+
+/* Landscape phones and down */
+@media only screen and (min-device-width : 280px) and (max-device-width : 480px) {
+	
+	/*home*/
+	#titleDiv {
+	border : 3px white solid;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 70%;
+	}
+	
+	#headerText {
+		font-size: 1.2em;
+	}
+	
+	#headerTitle {
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+
+	
+	.homebg{
+		margin-top: 50px;
+	}
+	
+	.bg {
+		height: 600px;
+	}
+	
+	/*news and announcement */
+	#textArticle {
+		font-size: 1em;
+	}
+	
+	#newsTitle {
+	border: 2px white solid;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	/*film list*/
+	#filmHeader {
+	text-align: center;
+	border: 1px white solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	/*home*/
+	#titleDiv {
+	border : 3px white solid;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 33%;
+	}
+	
+	#headerText {
+		font-size: 1.2em;
+	}
+	
+	.bg {
+		height: 500px;
+	}
+	
+	/*news and announcement */
+	#textArticle {
+		font-size: 1em;
+	}
+	
+	#megaphone {
+	width: 60%;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	/*footer*/
+	.footerLogo {
+		width: 50%;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	
+	/* news and announcement */
+	#textArticle {
+	font-size: 1.2em;
+	}
+	
+	/*footer*/
+	.footerLogo {
+		width: 50%;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
