@@ -194,11 +194,15 @@ legend {
 }
 
 #name-input, #email-input, #date-input {
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 }
 
 #people {
-	margin-bottom: 40px;
+	margin-bottom: 5px;
+}
+
+#subs {
+	margin-bottom: 30px;
 }
 
 /*footer*/
