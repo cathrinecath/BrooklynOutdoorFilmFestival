@@ -1,20 +1,5 @@
 
 html { height: 100%; }
-/*
-#home-image {
-	width:100%;
-	height: 100%;
-	background: url('../resources/jorge-gordo-205017.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.intro {
-	width: 100%;
-	height: 780px;
-}
-*/
 
 .intro {
 	width: 100%;
@@ -85,7 +70,7 @@ html { height: 100%; }
 	font-size: 1.8em;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	font-family: 'Chelsea Market', cursive;
+	font-family: sans-serif, "Times New Roman", Times, serif;
 	text-align: center;
 }
 
@@ -136,21 +121,6 @@ html { height: 100%; }
 #IMDbLogo {
 	margin-bottom: 10px;
 }
-
-/*
-.filmList {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 250px;
-	padding-top: 10px;
-	margin-left: 1%;
-	margin-right: 2%;
-	
-}
-
-.list {
-	margin : 2% 2% 2% 2%;
-}
-*/
 
 /* links */
 .thirdSect{
@@ -278,7 +248,7 @@ font-weight: bold;
 }
 
 /*font*/
-body {
+#whole {
 	font-family: "Roboto Condensed", sans-serif, "Times New Roman", Times, serif;
 }
 
