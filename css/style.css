@@ -264,7 +264,7 @@ font-weight: bold;
 	border : 3px white solid;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 70%;
+	margin-top: 30%;
 	}
 	
 	#headerText {
@@ -310,6 +310,11 @@ font-weight: bold;
 	margin-right: 20%;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	}
+	
+	/*footer*/
+	.footerLogo {
+		width: 50%;
 	}
 }
 
